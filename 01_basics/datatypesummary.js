@@ -39,3 +39,38 @@ to a data type and then reassign it to a different data type
 
 
 */
+
+
+// ----------------------------MEMORIES--------------
+/*
+Stack(Primitive) and Heap(Non primitive) Memories
+using stack memory , it creates a copy  of a variable
+using heap memory , it creates references
+
+*/
+
+let mycollege="jyothy institute of technology"
+
+let anothername=mycollege
+anothername="7semester"
+
+// console.log(mycollege);
+// console.log(anothername);
+
+let userOne={
+    email:"apoorva@gmail.com",
+    upi:"hello@ybl"
+}
+console.log(userOne);
+
+let userTwo = userOne;
+console.log(userTwo);
+
+
+userTwo.email="aditya@gmail.com"
+
+console.log((userOne.email));
+console.log(userTwo.email);
+
+
+
