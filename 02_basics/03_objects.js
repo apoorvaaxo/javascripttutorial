@@ -1,4 +1,4 @@
-// Object literal declaration
+// Object literal declaration / using literals
 const mysym = Symbol("key1");
 
 const jsuser = {
