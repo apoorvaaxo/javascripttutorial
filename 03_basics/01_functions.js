@@ -40,5 +40,35 @@ function LoginUserMessage(username){
 
 }
 //console.log(LoginUserMessage("apoorva"))
-console.log(LoginUserMessage("apoorva"))
+// console.log(LoginUserMessage("apoorva"))
 
+// "..." is called rest or spread operator
+function calculatecartprice(...num1){
+return num1
+}
+// console.log(calculatecartprice(200,300,400,6000))
+
+const user={
+    username:"apoorva",
+    prices:199
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+handleObject(user)
+
+
+const mynewarray=[200,400,600,290]
+function AcceptNumber(getArray){
+    return getArray[2]
+}
+// console.log(AcceptNumber(mynewarray))
+
+
+
+const fruits=['apple', 'mango','grapes']
+function returnfruits(getArray){
+    return getArray[1]
+}
+console.log(returnfruits(fruits))
