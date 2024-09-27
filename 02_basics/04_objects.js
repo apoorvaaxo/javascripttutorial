@@ -46,9 +46,39 @@ const users=[
     }
 ]
 users[1].email
-console.log(tinderuser)
+// console.log(tinderuser)
 
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
-console.log(tinderuser.hasOwnProperty('isLoggedIn'))
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
+// console.log(tinderuser.hasOwnProperty('isLoggedIn'))
+
+
+//-----------destructing ob objects--------------
+const course={
+    coursename:'english',
+    courseprice:"400",
+    courseteacher:"jenny"
+}
+
+// course.courseteacher
+const {courseteacher:instructor}=course
+console.log(instructor)
+
+
+//json api
+
+
+// {
+
+//     "name":'apoorva',
+//     "age":'21',
+
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
